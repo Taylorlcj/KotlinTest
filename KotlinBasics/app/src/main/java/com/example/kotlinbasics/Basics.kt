@@ -126,6 +126,39 @@ fun main(){
         g -= 2
     }
 
+    //do while
+    do {
+        println("$c")
+        c++
+    }while (c <= 10)
+
+    // more on while loops
+
+    var feltTemp = "cold"
+    var roomTemp = 10
+    while (feltTemp == "cold"){
+        roomTemp++
+        if (roomTemp >= 20){
+            feltTemp = "comfy"
+            println("it's comfy now")
+        }
+    }
+
+    //for loops
+    //mutliple ways
+    for (num in 1..10){                                 //Option 1
+        println("$num")
+    }
+
+    for(i in 1 until 10){                              //Option 2
+        println("$i ")
+    }
+
+    //step means in intervals of
+    for(i in 10 downTo -1 step 2){
+        println("$i ")
+
+    }
 }
 
 
