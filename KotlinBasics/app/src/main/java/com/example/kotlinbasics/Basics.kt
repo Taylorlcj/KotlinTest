@@ -113,6 +113,19 @@ fun main(){
         else -> println("$x is none of the above")
     }
 
+    //while statements
+    var c = 1
+    while(c <= 10){
+        println("$c")
+        c++
+    }
+     //try yourself
+    var g = 100
+    while(g >= 0){
+        println("$g")
+        g -= 2
+    }
+
 }
 
 
