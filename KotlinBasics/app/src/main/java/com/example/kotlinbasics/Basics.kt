@@ -3,9 +3,9 @@ package com.example.kotlinbasics
 comment */
 
 fun main(){
-    var myName = "Taylor" //var can be overridden; val cannot
-    myName = "Thomas"
-    print("Hello " + myName)
+    var myName = "Thomas" //var can be overridden; val cannot
+    myName = "Taylor"
+    print("Hello $myName") //the $ prevents the need for the + sign
 
     //Integers
     val myByte: Byte = 13                           //8 bit
@@ -32,10 +32,9 @@ fun main(){
     val myStr = "Hello World"
     val firstCharStr = myStr[0]
     val lastCarStr = myStr[myStr.length - 1]
-    print("\nFirst Character: " + firstCharStr)
-    print("\nLast Character: " + lastCarStr)
 
-
-
+    print("\nFirst Character: $firstCharStr and the length of myStr is ${myStr.length}")
+    print("\nLast Character: " + lastCarStr) //this is without using the $, much more tedious
+    print("\nHello my name is $myName and I love to sing!")
 }
 
