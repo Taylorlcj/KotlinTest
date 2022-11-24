@@ -1,6 +1,8 @@
 package com.example.kotlinbasics
 
 fun main(){
-    print("Hello World")
+    var myName = "Taylor" //var can be overrridden; val cannot
+    myName = "Thomas"
+    print("Hello " + myName)
 }
 
