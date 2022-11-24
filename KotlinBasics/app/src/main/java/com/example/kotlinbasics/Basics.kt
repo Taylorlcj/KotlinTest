@@ -145,7 +145,7 @@ fun main(){
     }
 
     //for loops
-    //mutliple ways
+    //multiple ways
     for (num in 1..10){                                 //Option 1
         println("$num")
     }
